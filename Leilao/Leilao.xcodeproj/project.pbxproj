@@ -21,6 +21,7 @@
 		475C3458263C2F1E00AA00C2 /* Leilao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C3457263C2F1E00AA00C2 /* Leilao.swift */; };
 		475C345A263C2F3700AA00C2 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C3459263C2F3700AA00C2 /* Usuario.swift */; };
 		477C3354264B03AC002B6C3F /* AvaliadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477C3353264B03AC002B6C3F /* AvaliadorTests.swift */; };
+		477C3356264C604B002B6C3F /* CriadorDeLeilao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477C3355264C604A002B6C3F /* CriadorDeLeilao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		475C3457263C2F1E00AA00C2 /* Leilao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leilao.swift; sourceTree = "<group>"; };
 		475C3459263C2F3700AA00C2 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		477C3353264B03AC002B6C3F /* AvaliadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliadorTests.swift; sourceTree = "<group>"; };
+		477C3355264C604A002B6C3F /* CriadorDeLeilao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriadorDeLeilao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +129,9 @@
 		47230885263C2E0D00548F96 /* LeilaoTests */ = {
 			isa = PBXGroup;
 			children = (
+				477C3353264B03AC002B6C3F /* AvaliadorTests.swift */,
 				47230886263C2E0D00548F96 /* LeilaoTests.swift */,
 				47230888263C2E0D00548F96 /* Info.plist */,
-				477C3353264B03AC002B6C3F /* AvaliadorTests.swift */,
 			);
 			path = LeilaoTests;
 			sourceTree = "<group>";
@@ -158,6 +160,7 @@
 				475C3455263C2F0700AA00C2 /* Lance.swift */,
 				475C3457263C2F1E00AA00C2 /* Leilao.swift */,
 				475C3459263C2F3700AA00C2 /* Usuario.swift */,
+				477C3355264C604A002B6C3F /* CriadorDeLeilao.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475C345A263C2F3700AA00C2 /* Usuario.swift in Sources */,
+				477C3356264C604B002B6C3F /* CriadorDeLeilao.swift in Sources */,
 				47230871263C2E0B00548F96 /* ViewController.swift in Sources */,
 				475C3454263C2EED00AA00C2 /* Avaliador.swift in Sources */,
 				47230877263C2E0B00548F96 /* Leilao.xcdatamodeld in Sources */,
