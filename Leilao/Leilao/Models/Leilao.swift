@@ -9,17 +9,25 @@ import Foundation
 
 class Leilao {
     
-    let descricao:String
-    let imagem:String?
-    var lances:[Lance]?
+    let descricao: String
+    let imagem: String?
+    var lances: [Lance]?
     
-    init(descricao:String, imagem:String? = nil, lances:[Lance] = []) {
+    init(descricao: String, imagem: String? = nil, lances: [Lance] = []) {
         self.descricao = descricao
         self.imagem = imagem
         self.lances = lances
     }
     
-    func propoe(lance:Lance) {
-        lances?.append(lance)
+    func propoe(lance: Lance) {
+        guard let listaLances = lances else { return }
+        
+        if listaLances.count == 0 || ultimoLance(listaLances).usuario != lance.usuario {
+            lances?.append(lance)
+        }
+    }
+    
+    private func ultimoLance(_ lances: [Lance]) -> Lance {
+        return lances[lances.count - 1]
     }
 }

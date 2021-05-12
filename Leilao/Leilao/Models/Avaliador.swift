@@ -13,7 +13,7 @@ class Avaliador {
     private var menorDeTodos = Double.greatestFiniteMagnitude
     private var maiores: [Lance] = []
     
-    func avalia(leilao:Leilao) {
+    func avalia(leilao: Leilao) {
         guard let lances = leilao.lances else { return }
         
         for lance in lances {
